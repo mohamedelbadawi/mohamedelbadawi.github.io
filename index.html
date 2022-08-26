@@ -92,7 +92,8 @@
 							</a>
 						</div>
 						<div class="p-inner">
-							<a href="http://grocery-apid.herokuapp.com/en/home" style="direction:no-decoration ;">
+							<a href="http://grocery-apid.herokuapp.com/en/home" style="direction:no-decoration ;"
+								data-toggle="modal" data-target="#ecommerce-modal">
 
 								<h4>Grocery ecommerce</h4>
 							</a>
@@ -114,7 +115,7 @@
 							</a>
 						</div>
 						<div class="p-inner">
-							<a href="http://school-managment--system.herokuapp.com/">
+							<a data-toggle="modal" data-target="#school-modal" href="">
 
 								<h4>School managment system</h4>
 							</a>
@@ -126,9 +127,9 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/doctor.png" alt="">
+								<img class="image img-fluid" src="images/chatty.png" alt="">
 							</div>
-							<a href="images/doctor.png" class="img-pop-up">
+							<a href="images/chatty.png" class="img-pop-up">
 								<div class="middle">
 									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
 									</div>
@@ -144,9 +145,9 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/chatty.png" alt="">
+								<img class="image img-fluid" src="images/doctor.png" alt="">
 							</div>
-							<a href="images/chatty.png" class="img-pop-up">
+							<a href="images/doctor.png" class="img-pop-up">
 								<div class="middle">
 									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
 									</div>
@@ -164,7 +165,56 @@
 		</div>
 	</section>
 	<!-- .section -->
+	<!-- modals -->
 
+	<div class="modal fade " id="ecommerce-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog " role="document">
+			<div class="modal-content bg-dark">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Project Description</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					t's a multi language (Ar,En) ecommerce website for selling Grocey products developed with PHP
+					Laravel and some other tools and frameworks such as livewire .
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<a class="btn btn-primary" target="_blank" href="http://grocery-apid.herokuapp.com/home">view live
+						version</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<div class="modal fade " id="school-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog " role="document">
+			<div class="modal-content bg-dark">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Project Description</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					t's a multi language fully school managment system with four dashboards Admin ,teacher, student and
+					parents.
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<a class="btn btn-primary" target="_blank" href="http://school-managment--system.herokuapp.com">view live
+						version</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  -->
+	<!-- modals -->
 
 	<section class="site-section " id="section-resume">
 		<div class="container">
